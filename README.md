@@ -13,6 +13,8 @@ It's based on the C++ STL list data structure, with some extra functionalities l
 It's a console based game, no GUI.
 The game is implemented by using the doubly linked list. The extra functions were not used, the projects main goal was the implementation of the C++ STL list.
 
+<img src="https://github.com/nandor23/doubly-linked-list/blob/main/Screenshot.png" alt="game" width="500"/>
+
 ## Gameplay
 
 [Wikipedia link](https://en.wikipedia.org/wiki/War_(card_game))
