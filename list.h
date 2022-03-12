@@ -49,14 +49,14 @@ private:
 	}
 
 	void swap_pos(T& x, T& y)				//swaps two elements
-	{										//it's called by erase, rerase functions
+	{							//it's called by erase, rerase functions
 		T m = x;
 		x = y;
 		y = m;
 	}
 											  
 	void destroy(Node* p, Node* q)			//frees the memory from the p-th to q-th memory address
-	{									    //it's called by erase, rerase functions
+	{						//it's called by erase, rerase functions
 		Node* a;
 		while (p != q)
 		{
@@ -146,31 +146,31 @@ private:
 	}
 
 public:
-	list();							//default constructor
+	list();						//default constructor
 	list(int, T x = 0);				//initializer constructor
-	~list();						//destructor
+	~list();					//destructor
 	void push_front(T);				//adds a new element at the beginning of the list
 	void push_back(T);				//adds a new element at the end of the list
 	void pop_front();				//removes the first element of the list
 	void pop_back();				//removes the last element of the list
-	T front();						//returns the first element of the list
-	T back();						//returns the last element of the list
+	T front();					//returns the first element of the list
+	T back();					//returns the last element of the list
 	T value(int);					//returns the i-th element
 	T rvalue(int);					//returns the i-th element from the backward numbered list
-	T min();						//returns the smallest element of the list
-	T max();						//returns the largest element of the list
+	T min();					//returns the smallest element of the list
+	T max();					//returns the largest element of the list
 	void clear();					//removes all the elements from the list
 	bool empty();					//checks if the list is empty (returns a boolean value)
-	int size();						//returns the number of elements in the list
+	int size();					//returns the number of elements in the list
 
-	void swap(int, int);			//swaps 2 elements at the given positions
-	void rswap(int, int);			//swaps 2 elements at the given positions from the backward numbered list
+	void swap(int, int);				//swaps 2 elements at the given positions
+	void rswap(int, int);				//swaps 2 elements at the given positions from the backward numbered list
 	void replace(T, T);				//replaces all elements to the 2nd parameter that are equal to the first parameter
 	void remove(T);					//deletes all elements equal to the given parameter
 	void reverse();					//reverses the list
 	void resize(int);				//resizes the list
 	void rresize(int);				//resizes the list (numbered from backwards)
-	void resize(int, T);			//resizes the list and initializes the new elements with the given 2nd parameter
+	void resize(int, T);				//resizes the list and initializes the new elements with the given 2nd parameter
 
 	bool contains(T);				//checks if the given element is in the list
 	void sort();					//sorts the list in ascending order
@@ -179,27 +179,27 @@ public:
 	bool descending();				//checks if the elements in the list are in descending order
 	void unique();					//transforms the sorted list to a set
 
-	void insert_before(int, T);		  //inserts an element before the i-th position	
-	void insert_after(int, T);        //inserts an element after the i-th position	
-	void rinsert_before(int, T);	  //inserts an element before the i-th position	(numbered from backwards)
-	void rinsert_after(int, T);		  //inserts an element after the i-th position (numbered from backwards)
+	void insert_before(int, T);		  	//inserts an element before the i-th position	
+	void insert_after(int, T);        		//inserts an element after the i-th position	
+	void rinsert_before(int, T);	  		//inserts an element before the i-th position	(numbered from backwards)
+	void rinsert_after(int, T);		  	//inserts an element after the i-th position (numbered from backwards)
 
-	void insert_before(int, int, T);   //inserts N element before the i-th position	
-	void insert_after(int, int, T);    //inserts N element after the i-th position	
-	void rinsert_before(int, int, T);  //inserts N element before the i-th position	(numbered from backwards)
-	void rinsert_after(int, int, T);   //inserts N element after the i-th position (numbered from backwards)
+	void insert_before(int, int, T);   		//inserts N element before the i-th position	
+	void insert_after(int, int, T);    		//inserts N element after the i-th position	
+	void rinsert_before(int, int, T);  		//inserts N element before the i-th position	(numbered from backwards)
+	void rinsert_after(int, int, T);   		//inserts N element after the i-th position (numbered from backwards)
 
 	void erase(int);				//removes the element on the i-th position
-	void erase(int, int);			//removes the elements between the i- and j-th positions
+	void erase(int, int);				//removes the elements between the i- and j-th positions
 	void rerase(int);				//removes the element on the i-th position (numbered from backwards)
-	void rerase(int, int);			//removes the elements between the i- and j-th positions (numbered from backwards)
+	void rerase(int, int);				//removes the elements between the i- and j-th positions (numbered from backwards)
 
 	void read();					//reads the list from console
-	void read(const char*);			//reads the list from file
+	void read(const char*);				//reads the list from file
 	void print();					//prints the list to console
-	void print(const char*);		//prints the list to file
+	void print(const char*);			//prints the list to file
 	void rprint();					//prints the list to console in reversed order
-	void rprint(const char*);		//prints the list to file in reversed order
+	void rprint(const char*);			//prints the list to file in reversed order
 };
 
 
