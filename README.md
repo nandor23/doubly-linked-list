@@ -10,7 +10,7 @@ It's based on the C++ STL list data structure, with some extra functionalities l
 
 
 ## War - Game
-It's a console based game, no GUI.
+It's a console based game without GUI.
 
 The game is implemented with the help of the doubly linked list. The extra functions were not used, the projects main goal was the implementation of the C++ STL list.
 
