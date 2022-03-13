@@ -1,5 +1,5 @@
 # Doubly linked list with extra functionality
-It's based on the C++ STL list data structure, with some extra functionalities like: 
+It's based on the C++ STL list data structure, having some extra functionalities like: 
 - replacing every element equal to a given element
 - removing every element equal to a given element
 - inserting before/after a given position
