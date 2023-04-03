@@ -13,7 +13,7 @@ It's a console-based game without GUI.
 
 The game is implemented with the help of the doubly linked list. The extra functions were not used, the projects main goal was the implementation of the C++ STL list.
 
-<img src="https://github.com/nandor23/doubly-linked-list/blob/main/Screenshot.png" alt="game" width="600"/>
+<img src="https://github.com/nandor23/doubly-linked-list/blob/main/card_game.png" alt="game" width="600"/>
 
 ## Gameplay
 
