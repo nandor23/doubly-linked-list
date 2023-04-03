@@ -180,7 +180,7 @@ void put_to_table(deck& player1, deck& on_table1, game_card& card1, deck& player
 	player1.card.pop_front();
 	player1.color.pop_front();
 
-	cout << "  Put to table: ";
+	cout << "  Next card: ";
 	cin.get();
 
 	card2.number = player2.card.front();
